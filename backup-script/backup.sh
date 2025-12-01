@@ -1,22 +1,31 @@
 #!/bin/bash
 
-#Direktori yg mau dibackup
-SOURCE_DIR="$HOME/backup-script/sample-data"
+cat << EOF
+     _____       _                      _ 
+    / ____|     | |                    | |
+   | (___   __ _| | ___ _  _ _ __ ___  | |
+    \___ \ / _\`| |/ _ \ | | | '_\` \| | |
+    ____) | (_| | |  __/ |_| | | | | | |_|
+   |_____/ \__,_|_|\___|\__,_|_| |_| |_(_)
 
-#Direktori tujuan
-BACKUP_DIR="$HOME/backup-script/backups"
+--- SCRIPT DIMULAI ---
+EOF
+
+=
 
 #Format penanggalan
 DATE=$(date +%Y-%m-%d_%H-%M-%S)
 
-#Retention days (terserah berapa)
-RETENTION_DAYS=7
-
 #Nama backup
 BACKUP_NAME="backup_$DATE.tar.gz"
 
-echo "Memulai backup direktori $SOURCE_DIR"
-mkdir -p "BACKUP_DIR"
+#Direktori yg mau dibackup
+echo "Masukkan Direktori yang mau dibackup: "
+read SOURCE_DIR
+#Direktori tujuan
+echo "Masukkan Direktori tujuan: "
+read BACKUP_DIR
+
 tar -cz "$BACKUP_DIR/$BACKUP_NAME" $SOURCE_DIR
 
 #Cek apakah berhasil
