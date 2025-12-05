@@ -1,0 +1,16 @@
+
+2025-12-05_18-01-52 | Backup dimulai di: ..\sample-file
+2025-12-05_18-01-57 | Backup berhasil di: ..\backup-file/backup-20251205-180152.tar.gz
+2025-12-05_18-01-52 | Besar backup adalah 0 MB | Status: SUCCESS
+2025-12-05_18-02-46 | Backup dimulai di: ../sample-file
+2025-12-05_18-02-47 | Backup berhasil di: ../backup-file/backup-20251205-180246.tar.gz
+2025-12-05_18-02-46 | Besar backup adalah 0 MB | Status: SUCCESS
+2025-12-05_18-04-44 | Backup dimulai di: ..\sample-file
+2025-12-05_18-04-47 | Backup berhasil di: ..\backup-file/backup-20251205-180444.tar.gz
+2025-12-05_18-04-44 | Besar backup adalah 0 MB | Status: SUCCESS
+2025-12-05_18-05-01 | Backup dimulai di: ..\sample-file
+2025-12-05_18-05-02 | Backup berhasil di: ..\backup-file/backup-20251205-180501.tar.gz
+2025-12-05_18-05-01 | Besar backup adalah 0 MB | Status: SUCCESS
+2025-12-05_18-10-00 | Backup dimulai di: ../sample-file
+2025-12-05_18-10-28 | Backup berhasil di: ../backup-file/backup-20251205-180959.tar.gz
+2025-12-05_18-10-00 | Besar backup adalah 0 MB | Status: SUCCESS
