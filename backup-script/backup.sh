@@ -19,7 +19,7 @@ ${BOLD}
 |_____/ \__,_|_|\___|\__,_|_| |_| |_| (_)  
 
 ${NC}${GARIS}
-${BOLD}           Sistem Backup Otomatis${NC}
+${BOLD}    Sistem Backup Otomatis By Kelompok 5${NC}
 ${GARIS}
 EOF
 
